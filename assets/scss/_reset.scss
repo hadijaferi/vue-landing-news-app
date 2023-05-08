@@ -1,0 +1,39 @@
+/*////////////////////// RESET //////////////////////*/
+
+* {
+    box-sizing: border-box;
+    outline: none!important;
+    /* vuetify */
+    letter-spacing: 0;
+    font-family: $f;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit!important;
+}
+
+ul {
+    padding: 0!important;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+i {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0!important;
+}
+
+.dir-ltr {
+    direction: $dir-o;
+    text-align: $align-o;
+}

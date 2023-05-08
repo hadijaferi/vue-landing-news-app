@@ -1,0 +1,37 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/moment": "^1.6.1",
+    "core-js": "^3.6.5",
+    "cross-env": "^5.2.0",
+    "moment": "^2.29.1",
+    "node-gyp": "^7.1.2",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "nuxt-vuex-localstorage": "^1.2.7",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-moment": "^4.1.0",
+    "vue-particles": "^1.0.9",
+    "vue-persian-datetime-picker": "^2.6.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.9.55",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "fibers": "^5.0.0",
+    "nodemon": "^1.18.9",
+    "nuxt-moment-jalaali": "^1.4.3",
+    "nuxt-purgecss": "^1.0.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1"
+  }
+}
